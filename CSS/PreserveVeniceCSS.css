@@ -1,0 +1,248 @@
+html {background-color: teal;}
+.container{
+    overflow:hidden;
+}
+
+#Home {padding-left: 20%;
+padding-right: 20%;
+padding-top: 10px;
+padding-bottom: 1px;
+    text-align: center;
+}
+
+#image1 {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+background-color: white;
+border: none;
+  border-radius: 4px;}
+
+A {text-decoration: none;}
+body {margin: 35px;}
+
+.imagesqui {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    top: 25px;
+    position: relative;
+  width: 85%;}
+
+
+h1, h2, h4 {font-family: gotham narrow;
+    color: white;
+    letter-spacing: 2px;
+}
+h1 {font-size: 45px;
+    text-align: center;}
+h2 {text-align: center;}
+
+h3 {text-align: left;
+color: teal;
+width: 45%;
+  background-color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+font-family: calibri;
+    letter-spacing: 2px;}
+
+#blue {color: teal;
+font-family:Calibri;
+margin: 0px 35px;
+line-height: normal;
+font-size: 17px}
+
+p {font-family:Calibri;
+color: white;
+margin: 0px 35px;
+line-height: normal;
+font-size: 17px;
+line-height: 2;
+}
+
+#navbar{
+    /*overflow controls what happens to content that is too big to fit into an area*/
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left:0;
+    width: 100%;
+    display: block;
+    font-family: calibri;
+    letter-spacing: 1px;
+    font-size: 20px;
+    z-index: 1;
+}
+#navbar a{
+    /*displaying the links as block elements makes the whole area clickable; inline-block common to display items horizontally*/
+    display: inline-block; 
+    padding: 14px;
+    color: teal;
+ }
+
+#navbar a:hover{
+    color: orange;
+}
+#navbar a:active{
+    background-color: orange;
+    color: white;
+}
+img {align-content:center;}
+
+footer {align-content: center;
+        padding-left: 20%;
+padding-right: 20%;
+padding-top: 20px;
+padding-bottom: 1px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1px;
+grid-column-gap: 20px;
+grid-row-gap: 1px;}
+
+#aboutusbox {    align-content: center;
+        padding-left: 20%;
+padding-right: 20%;
+padding-top: 20px;
+padding-bottom: 1px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1px;
+grid-column-gap: 20px;
+grid-row-gap: 1px;}
+
+#artfairbox {align-content: center;
+        padding-left: 20%;
+padding-right: 20%;
+padding-top: 20px;
+padding-bottom: 1px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1px;
+grid-column-gap: 20px;
+grid-row-gap: 1px;}
+
+#image2 {background-color: white;
+align-content: right;
+border: none;
+  border-radius: 4px;}
+#image3 {background-color: white;
+border: none;
+  border-radius: 4px;}
+
+
+
+ul {list-style-type: none;}
+body {font-family: gotham narrow, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: orange;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: white;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: white;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: teal;
+}
+
+#calendar {padding-left: 20%;
+padding-right: 20%;
+padding-top: 10px;
+padding-bottom: 1px;
+border: none;
+  border-radius: 4px;}
+
+#form {    align-content: center;
+        padding-left: 20%;
+padding-right: 20%;
+padding-top: 20px;
+padding-bottom: 1px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1px;
+grid-column-gap: 20px;
+grid-row-gap: 1px;
+font-family: gotham narrow;
+color: white;}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: orange;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+    color: orange;
+}
